@@ -1,0 +1,12 @@
+.Services{
+    padding:0px 3rem 0px 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
