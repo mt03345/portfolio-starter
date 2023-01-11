@@ -1,15 +1,16 @@
 
 import React from 'react'
 import './Services.css'
-import Heartemoji from "../../img/heartemoji.png"
+import HeartEmoji from "../../img/heartemoji.png"
 import Glasses from "../../img/glasses.png"
 import Humble from "../../img/humble.png"
+import Card from '../Card/Card';
 const Services = () => {
   return (
     <div className='Services'>
         {/* left side */}
             <div className="awesome">
-                <span>my awesome</span>
+                <span>My Awesome</span>
                 <span>Services</span>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 <br />
@@ -18,8 +19,14 @@ const Services = () => {
                 <div className="blur s-blur" style={{Background:"#ABF1FF94"}}></div>
             </div>
       {/* right silde  */}
-      <div className="cards">
-        iam right 
+      <div className="card">
+               <div>
+                <Card 
+                 emoji={HeartEmoji}
+                 heading={'Design'}
+                 detail={'Figma,sketch,photshop,Adob,Adob xd'}
+                />
+                </div> 
       </div>
     </div>
   )
