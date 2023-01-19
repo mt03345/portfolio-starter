@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio">
         {/* heading */}
-        <span>Recent Projects</span>
+        <span>Recent P rojects</span>
         <span>Portfolio</span>
 
         {/* Slider */}
